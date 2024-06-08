@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>Headerlink}}
+</head>
+
+<body>
+    <!--Header start-->
+    {{>Navbar}}
+    <!--Header End-->
+    <!--Main start-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure>
+                            <img src="./Images/404error1.jpg" alt="chandra" class="img-fluid" title="chandra technical">
+                        </figure>
+                        <p>Welcome to the Chandra Technical</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main End-->
+    <!--Footer Start-->
+    {{>Footer}}
+    <!--Footer End-->
+</body>
+
+</html>
